@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+navbar { font-family:Verdana !important; }
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+/* NAVBAR FORMATTING */
+.navbar{
+    padding: .8rem;
+}
+
+.navbar-brand img {
+    height: 3.5rem;
+}
+
+.navbar-nav {
+    margin-left: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+#mainNavbar .nav-link {
+    font-size: 1.1em !important;
+    font-weight: 450;
+    color: #067658;
+    display: inline-block;
+    position: relative;
+}
+
+#mainNavbar .nav-link:hover {
+    opacity: 1;
+}
+
+#mainNavbar .nav-link::before {
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #067658;
+    width: 0%;
+    bottom: 0px;
+}
+
+#mainNavbar .nav-link:hover::before {
+    width: 80%;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.dropdown-item:active {
+    background-color: #067658;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+body {
+    background: rgba(218, 215, 205,.3);
+}
+
+.roadway {
+    position: relative;
+}
+
+.roadway::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../Media/Photo/Capote-rendering.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .3;
+}
+
+#services-cont {
+    padding-bottom: 0;
+}
+
+#services-intro {
+    color: #5a5a5a;
+    padding-top: 1.5rem;
+    font-size: 4rem;
+    padding-left: 2rem;
+    word-wrap: break-word;
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+    /* padding-left: 3rem;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0; */
+}
+
+.my-4 {
+    border-top: 6px solid #067658;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    margin-left: 5rem;
+    opacity: .8;
+}
+
+#service {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #202020;
+    font-size: 2rem;
+}
+
+/* FOOTER FORMATTING */
+#footer-head {
+    height: 3.6rem;
+}
+
+footer {
+    background-color: #dfdfdf;
+    color: #067658;
+    padding-top: 1rem;
+}
+hr.light {
+    border-top: 1px solid #067658;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}

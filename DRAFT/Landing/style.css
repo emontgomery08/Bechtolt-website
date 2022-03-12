@@ -1,0 +1,389 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+navbar { font-family:Verdana !important; }
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.fixed-background {
+    position: relative;
+    width: 100%;
+    z-index: 1000 !important;
+    padding: 15rem 0;
+}
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+}
+.fixed {
+    z-index: -999 !important;
+    background-image: url('../Media/Photo/sh17-heater-remix.jpg');
+    /* background-color: #067658;
+    background-blend-mode: luminosity; */
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    opacity: 70%;
+}
+
+
+body {
+    background: rgba(218, 215, 205,.3);
+}
+
+/* NAVBAR FORMATTING */
+.navbar{
+    padding: .8rem;
+}
+
+.navbar-brand img {
+    height: 3.5rem;
+}
+
+.navbar-nav {
+    margin-left: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+#mainNavbar .nav-link {
+    font-size: 1.1em !important;
+    font-weight: 450;
+    color: #067658;
+    display: inline-block;
+    position: relative;
+}
+
+#mainNavbar .nav-link:hover {
+    opacity: 1;
+}
+
+#mainNavbar .nav-link::before {
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #067658;
+    width: 0%;
+    bottom: 0px;
+}
+
+#mainNavbar .nav-link:hover::before {
+    width: 80%;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+/* #mainNavbar .dropdown-toggle:hover::before {
+    width: 50%;
+} */
+
+.dropdown-item:active {
+    background-color: #067658;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+/* CAROUSEL FORMATTING */
+/* .carousel-caption {
+    position: absolute;
+    transform: translateY(-40%);
+} */
+
+#carousel-cap-1 {
+    position: absolute;
+    padding-bottom: 5px;
+    /* transform: translate(-100%); */
+    /* transform: translateY(-40%); */
+    /* transform: translateX(-35%); */
+    transform: translate(55%, -300%);
+    color: black;
+    width: 20%;
+    text-align: center;
+    background-color: rgba(160, 160, 160, .6);
+    border-radius: 1rem;
+    opacity: 1;
+    color: white;
+}
+
+#carousel-cap-2 {
+    width: 30%;
+    padding-bottom: 5px;
+    transform: translate(50%, -200%);
+    text-align: center;
+    background-color: rgba(160, 160, 160, 0.8);
+    border-radius: 1rem;
+    opacity: 1;
+    color: white;
+}
+
+#carousel-cap-3 {
+    width: 30%;
+    padding-bottom: 5px;
+    transform: translate(30%, -100%);
+    text-align: center;
+    background-color: rgba(160, 160, 160, .6);
+    border-radius: 1rem;
+    opacity: 1;
+    color: white;
+}
+
+.carousel-caption h5 {
+    font-size: 200%;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+
+.carousel-caption  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: bottom;
+    background-size: cover;
+    /* transform: translateY(-5%); */
+    opacity: 1;
+}
+
+#carousel-video {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    width: 100%;  
+    transform: translateY(-10%);
+    opacity: 1;
+}
+
+/* #main-carousel img {
+    max-height: 800px;
+} */
+
+.welcome {
+    padding-top: 1.5rem;
+}
+
+/* .card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+} */
+
+/* .card-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+} */
+
+#second-service {
+    margin-top: 0;
+}
+
+#first-service {
+    margin-bottom: 0;
+}
+
+/* #design-img {
+    background-color: rgb(78, 78, 78);
+} */
+
+#footer-head {
+    height: 3.6rem;
+}
+.padding {
+    padding-bottom: 2rem;
+}
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr {
+    border-top: 2px solid #3a3a3a;
+    width: 90%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* .fa-road {
+    color: #067658;
+}
+
+.fa-traffic-light {
+    color: #ffb703;
+}
+.fa-helmet-safety {
+    color: #fb8500;
+} */
+
+/* ICON FORMATTING */
+.fa-solid {
+    color: #067658;
+    margin: 2.2rem;
+    font-size: 2.5em;
+}
+
+/* BUTTON FORMATTING */
+.btn-primary    {
+    background-color: #067658;
+    border: 1px solid #055B44;
+    color: white;
+}
+.btn-large    {
+    background-color: #067658;
+    border: 1px solid #055B44;
+    color: white;
+    font-weight: 600;
+}
+.btn-primary:hover {
+    background-color: #055B44;
+    border: 1px solid #055B44;
+    /* padding: 6px 15px; */
+    font-weight: 700;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    background-color: #067658;
+    border: 1px solid #055B44; 
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+
+.btn-outline-primary {
+    color: #067658;
+    border: 1px solid #067658;
+}
+.btn-outline-primary:hover {
+    background-color: #055B44;
+    border: 1px solid #055B44;
+    color: white;
+    font-weight: 600;
+}
+.btn-outline-primary:active, .btn-outline-primary:focus {
+    background-color: #055B44;
+    border: 1px solid #055B44; 
+    color: white;
+   outline: none !important;
+   box-shadow: none !important;
+   /* ADD MORE DETAIL FOR FOCUS AND ACTIVE - i.e. ADDRESS OUTLINE */
+}
+
+#design-back {
+    background-color: #777;
+}
+
+#icon:hover {
+    background-color: rgba(218, 215, 205,.5);
+    border-radius: 3rem;
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+    transform: scale(1.03);
+}
+
+#icon:active, #icon:focus {
+    background-color: none;
+    border: none;     
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+footer {
+    background-color: #dfdfdf;
+    color: #067658;
+    padding-top: 1rem;
+}
+hr.light {
+    border-top: 1px solid #067658;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .fixed-background {
+       padding: 8rem 0;
+    }
+    .fixed {
+        z-index: -999 !important;
+        background-image: url('../Media/Photo/sh17-heater-remix.jpg');
+        /* background-color: #067658;
+        background-blend-mode: luminosity; */
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: 20% 50%;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        will-change: transform;
+        opacity: 70%;
+    }
+}
+
+/* @media (min-width: 992px) {
+    #staff-card {
+        max-width: 420px;
+    }
+
+} */
